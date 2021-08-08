@@ -1,0 +1,35 @@
+.checkout {
+  width: 87%;
+  max-width: 20rem;
+  margin: 2rem auto;
+}
+
+.checkout h2 {
+  margin-bottom: 2rem;
+}
+
+.card-validity,
+.card-number-cvv {
+  display: grid;
+  column-gap: 0.5rem;
+}
+
+.card-validity {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.card-number-cvv {
+  grid-template-columns: 2fr 1fr;
+}
+
+.checkout-form-field {
+  margin-bottom: 1.5rem;
+}
+
+@media screen and (min-width: 480px) {
+  .card-validity,
+  .card-number-cvv {
+    display: grid;
+    column-gap: 2rem;
+  }
+}

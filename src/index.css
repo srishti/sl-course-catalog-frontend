@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --clr-primary: #df8a3b;
+  --clr-primaryDark: #b97331;
+  --clr-secondary: #118ab2;
+  --clr-secondaryDark: #10627e;
+  --clr-black: #222;
+  --clr-white: #fff;
+  --clr-lightGray: #bbb;
+  --clr-darkGray: #777;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 0.875rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}

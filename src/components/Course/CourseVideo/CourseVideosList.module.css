@@ -1,0 +1,9 @@
+.course-videos-list {
+  margin: 1.25rem;
+}
+
+@media screen and (min-width: 480px) {
+  .course-videos-list {
+    margin: 2rem;
+  }
+}

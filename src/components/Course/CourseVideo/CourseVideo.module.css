@@ -1,0 +1,13 @@
+.course-video iframe {
+  height: 18rem;
+}
+
+.course-video:not(:last-of-type) {
+  margin-bottom: 1.5rem;
+}
+
+@media screen and (min-width: 480px) {
+  .course-video iframe {
+    height: 30rem;
+  }
+}
